@@ -16,7 +16,7 @@ O relatório foi feito por todos os elementos do grupo. <p>
 
 ### Solução:
 ##### Arquitetura:
-Fizemos o projeto até à fase
+Fizemos o projeto até à fase 3. <p>
 Separámos o código em várias classes.
 Cada classe desepenha uma determinada função no código. <p>
 O `Program` inicializa o jogo. <p>
@@ -102,6 +102,7 @@ public void PlayerActions(Board board)
 ![Flowchart](Flowchart.svg)
 
 ### Conclusões
+Com este projeto aprendemos a usar interfaces e a herdar de List. Aprendemos ainda a usar métodos iteráveis.
 
 ### Referências
 * Discussão sobre o projeto com alguns colegas de turma.
