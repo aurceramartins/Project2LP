@@ -8,10 +8,10 @@ Pedro Santos a21702907
 ##### Link do repositório GitHub :
 
 ### Relatório:
-O Alejandro fez a classe `Program`, `GameLoop`
-A Joana fez a classe `Player`, `Exit`, `Tiles`, o fluxograma
-O Pedro fez a classe `Render`, `Position`, `Board`,
-O relatório foi feito por todos os elementos do grupo.
+O Alejandro fez a classe `Program`, `GameLoop` <p>
+A Joana fez a classe `Player`, `Exit`, `Tiles`, o fluxograma <p>
+O Pedro fez a classe `Render`, `Position`, `Board`, <p>
+O relatório foi feito por todos os elementos do grupo. <p>
 
 ### Solução:
 ##### Arquitetura:
