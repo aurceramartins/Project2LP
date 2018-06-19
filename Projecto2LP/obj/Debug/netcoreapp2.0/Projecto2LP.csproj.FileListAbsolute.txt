@@ -1,0 +1,11 @@
+D:\Clase\LenguageProgramacion\Projeto2LP\Projecto2LP\Projecto2LP\bin\Debug\netcoreapp2.0\Projecto2LP.deps.json
+D:\Clase\LenguageProgramacion\Projeto2LP\Projecto2LP\Projecto2LP\bin\Debug\netcoreapp2.0\Projecto2LP.runtimeconfig.json
+D:\Clase\LenguageProgramacion\Projeto2LP\Projecto2LP\Projecto2LP\bin\Debug\netcoreapp2.0\Projecto2LP.runtimeconfig.dev.json
+D:\Clase\LenguageProgramacion\Projeto2LP\Projecto2LP\Projecto2LP\bin\Debug\netcoreapp2.0\Projecto2LP.dll
+D:\Clase\LenguageProgramacion\Projeto2LP\Projecto2LP\Projecto2LP\bin\Debug\netcoreapp2.0\Projecto2LP.pdb
+D:\Clase\LenguageProgramacion\Projeto2LP\Projecto2LP\Projecto2LP\obj\Debug\netcoreapp2.0\Projecto2LP.csprojResolveAssemblyReference.cache
+D:\Clase\LenguageProgramacion\Projeto2LP\Projecto2LP\Projecto2LP\obj\Debug\netcoreapp2.0\Projecto2LP.csproj.CoreCompileInputs.cache
+D:\Clase\LenguageProgramacion\Projeto2LP\Projecto2LP\Projecto2LP\obj\Debug\netcoreapp2.0\Projecto2LP.AssemblyInfoInputs.cache
+D:\Clase\LenguageProgramacion\Projeto2LP\Projecto2LP\Projecto2LP\obj\Debug\netcoreapp2.0\Projecto2LP.AssemblyInfo.cs
+D:\Clase\LenguageProgramacion\Projeto2LP\Projecto2LP\Projecto2LP\obj\Debug\netcoreapp2.0\Projecto2LP.dll
+D:\Clase\LenguageProgramacion\Projeto2LP\Projecto2LP\Projecto2LP\obj\Debug\netcoreapp2.0\Projecto2LP.pdb
