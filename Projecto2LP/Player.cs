@@ -22,13 +22,15 @@ namespace Projecto2LP
             return PlayerPos;
         }
 
-        public void DoPlayerAction(int action, out bool enableMov, out bool quit)
+        public void DoPlayerAction(int action, out bool enableMov, out bool quit, ref int canPickUp)
         {
             enableMov = true;
             quit = false;
+            
             switch (action)
             {
                 case 1:
+                    canPickUp = 0;
                     if (PlayerPos.Row - 1 >= 0)
                     {
                         PlayerPos = new Position(PlayerPos.Row - 1, PlayerPos.Column);
@@ -39,6 +41,7 @@ namespace Projecto2LP
                     }
                     break;
                 case 2:
+                    canPickUp = 0;
                     if (PlayerPos.Column - 1 >= 0)
                     {
                         PlayerPos = new Position(PlayerPos.Row, PlayerPos.Column - 1);
@@ -49,6 +52,7 @@ namespace Projecto2LP
                     }
                     break;
                 case 3:
+                    canPickUp = 0;
                     if (PlayerPos.Row + 1 <= 7)
                     {
                         PlayerPos = new Position(PlayerPos.Row + 1, PlayerPos.Column);
@@ -59,6 +63,7 @@ namespace Projecto2LP
                     }
                     break;
                 case 4:
+                    canPickUp = 0;
                     if (PlayerPos.Column + 1 <= 7)
                     {
                         PlayerPos = new Position(PlayerPos.Row, PlayerPos.Column + 1);
@@ -71,7 +76,18 @@ namespace Projecto2LP
                 case 5:
                     quit = true;
                     break;
-                case 0: enableMov = false; break;
+                case 6:
+                    if(canPickUp != 0)
+                    {
+                        if(canPickUp == 1) { canPickUp = 1; }
+                        else { canPickUp = - 1; }
+                    }
+                    else
+                    {
+                        canPickUp = -1;
+                    }
+                    break;
+                case 0: enableMov = false; canPickUp = 0; break;
             }
         }
 
@@ -85,6 +101,7 @@ namespace Projecto2LP
                 case "s": return 3; break;
                 case "d": return 4; break;
                 case "q": return 5; break;
+                case "e": return 6; break;
                 default: return 0;
             }
         }
