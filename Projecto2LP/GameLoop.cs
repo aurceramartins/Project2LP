@@ -22,6 +22,8 @@ namespace Projecto2LP
             Exit e = new Exit();
             ///Instanciate render.
             Render r = new Render();
+            ///Instanciate map.
+            Map m = new Map();
             ///variable to enable movement of the player.
             bool enableMov;
             ///variable to quit from the game to the menu.
@@ -32,6 +34,8 @@ namespace Projecto2LP
             int level = 1;
             ///variable to end the game.
             bool end = false;
+            ///variable to check if player can pickup the object.
+            int canPickObject = 0;
 
             ///Show the menu until the Player choose the quit option.
             do
@@ -50,16 +54,22 @@ namespace Projecto2LP
                     ///The games run until the HP isn´t 0 or quit is false.
                     while (p.HP != 0 && quit == false)
                     {
+                        while(e.ExitPos == m.Pos)
+                        {
+                            m.RandPos();
+                        }
                         ///insert the player in the board in random position.
                         p.PlayerActions(board);
                         ///insert the exit in the board in randon position.
                         board.BoardTiles[e.ExitPos.Row, e.ExitPos.Column].Insert(2, e);
                         ///remove the last tile of the grid.
-                        board.BoardTiles[e.ExitPos.Row, e.ExitPos.Column].RemoveAt(5);
-
+                        board.BoardTiles[e.ExitPos.Row, e.ExitPos.Column].RemoveAt(5);    
+                        ///insert the Map in the board in randon position.
+                        board.BoardTiles[m.Pos.Row, m.Pos.Column].Insert(1, m);
+                        ///remove the last tile of the grid.
+                        board.BoardTiles[m.Pos.Row, m.Pos.Column].RemoveAt(10);
                         ///Show the board render and the player stats.
                         r.RederBoard(board, level, p.HP);
-
                         ///Run the game until hp==0, exit=true and quit=true.
                         while (e.FindExit == false && p.HP != 0 && quit == false)
                         {
@@ -74,21 +84,32 @@ namespace Projecto2LP
                             ///Do this until the player chose a correct action.
                             do
                             {
+                                ///If PickUp the map.
+                                canPickObject = m.CheckPickUp(board, p.PlayerPos.Row, p.PlayerPos.Column);
                                 ///get the action chosed by the player.
                                 int action = p.ChoseAction();
                                 ///set the action to do the player movement
-                                p.DoPlayerAction(action, out enableMov, out quit);
+                                p.DoPlayerAction(action, out enableMov, out quit,ref canPickObject);
                                 ///if the move isn´t posible
-                                if(enableMov == false)
+                                if (enableMov == false || canPickObject < 0)
                                 {
                                     ///Show the alert message
                                     r.ChosePlayerAction(7);
+                                    Console.ReadKey();
                                 }
                                 ///if the movement is correct end the loop.
-                            } while (enableMov != true);
+                            } while (enableMov != true && canPickObject < 0);
 
                             ///insert the player in the new position.
                             p.PlayerActions(board);
+                            ///PickUpObjects
+                            switch (canPickObject)
+                            {
+                                case 1:
+                                    m.PickUpMap(board);
+                                    break;
+                                case 0: break;
+                            }
                             ///increment the player turn.
                             turn++;
                             ///decrement player life by one.
@@ -118,6 +139,8 @@ namespace Projecto2LP
                         p.PlayerRandPos();
                         ///Set the new random exit position in the new level.
                         e.ExitRandPos();
+                        ///Set the new random Map position in the new level.
+                        m.RandPos();
                         ///Increment the level.
                         level++;
                     }
