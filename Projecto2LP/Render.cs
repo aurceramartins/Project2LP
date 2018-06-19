@@ -33,6 +33,10 @@ namespace Projecto2LP
                             {
                                 Console.Write("Exit!");
                             }
+                            else if (t is Map)
+                            {
+                                Console.Write("M");
+                            }
                         }
                         else
                         {
@@ -64,14 +68,16 @@ namespace Projecto2LP
     "3 - Credits\n" +
     "4- Quit\n");
                     break;
-                case 2: Console.WriteLine("Chose one action"); break;
+                case 2: Console.WriteLine("Chose one action\n" +
+                    "(W)Move North  (A)Move West (S)Move South (D)Move East\n" +
+                    "(E)PickUp Object (Q)Quit Game"); break;
                 case 3:
                     Console.WriteLine("Made by Alejandro Urcera, " +
                 "Joana Marques " + " & Pedro Santos"); break;
                 case 4: Console.WriteLine("Bye"); break;
                 case 5: Console.WriteLine("You pass the level"); break;
                 case 6: Console.WriteLine("YOU DIED"); break;
-                case 7: Console.WriteLine("You can´t move to this direction, choose other one"); break;
+                case 7: Console.WriteLine("You can´t do this action, choose another one"); break;
                 case 0: Console.WriteLine(" "); break;
             }
         }
