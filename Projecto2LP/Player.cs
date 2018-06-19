@@ -96,12 +96,12 @@ namespace Projecto2LP
             string option = Console.ReadLine();
             switch (option)
             {
-                case "w": return 1; break;
-                case "a": return 2; break;
-                case "s": return 3; break;
-                case "d": return 4; break;
-                case "q": return 5; break;
-                case "e": return 6; break;
+                case "w": return 1;
+                case "a": return 2;
+                case "s": return 3;
+                case "d": return 4;
+                case "q": return 5;
+                case "e": return 6;
                 default: return 0;
             }
         }
