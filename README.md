@@ -8,7 +8,7 @@ Pedro Santos a21702907
 ##### Link do repositório GitHub :
 
 ### Relatório:
-O Alejandro fez a classe `Program`, `GameLoop` <p>
+O Alejandro fez a classe `Program`, `GameLoop`, diagrama UML<p>
 A Joana fez a classe `Player`, `Exit`, `Tiles`, o fluxograma <p>
 O Pedro fez a classe `Render`, `Position`, `Board`,`Map` 
 e `Items`. <p>
@@ -97,6 +97,7 @@ public void PlayerActions(Board board)
 ```
 
 ##### Diagrama UML:
+![UML](UML.svg)
 ##### Fluxograma:
 ![Flowchart](Flowchart.svg)
 
