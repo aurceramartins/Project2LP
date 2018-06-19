@@ -10,7 +10,8 @@ Pedro Santos a21702907
 ### Relatório:
 O Alejandro fez a classe `Program`, `GameLoop` <p>
 A Joana fez a classe `Player`, `Exit`, `Tiles`, o fluxograma <p>
-O Pedro fez a classe `Render`, `Position`, `Board`, <p>
+O Pedro fez a classe `Render`, `Position`, `Board`,`Map` 
+e `Items`. <p>
 O relatório foi feito por todos os elementos do grupo. <p>
 
 ### Solução:
@@ -23,7 +24,9 @@ A classe `Player` coloca o jogador aleatóriamente na primeira coluna da grelha 
 A classe `Position` contém a indicação das linhas e das colunas do tabuleiro e consequentemente, a classe `Board` tem as posições para onde o jogador se pode mover e faz o reset do mesmo. <p>
 A classe `GameLoop` é o gameloop do jogo e a classe `Render` mostra os resultados. <p>
 A classe `Exit` coloca aleatoriamente a saída na oitava coluna do tabuleiro e verifica se o jogador chega lá ou não. <p>
-A classe `Tiles` é uma clase que herda de List e introduz o que tem cada casa do tabuleiro. <p>
+A classe `Tiles` é uma classe que herda de List e introduz o que tem cada casa do tabuleiro. <p>
+A classe `Items` é uma Interface que contem o peso dos Items e contem o metodo random. <p>
+A classe `Map` que implementa Items e que coloca o mapa numa posição aleatoria no board e quando o jogador o apanha todo o tabuleiro fica descoberto. <p>
 
 As estruturas de dados que utilizámos no nosso código foi `arrays` <p>
 
