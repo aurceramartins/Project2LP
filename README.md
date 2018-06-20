@@ -5,7 +5,7 @@ Alejandro Urcera a21703818
 Joana Marques a21701929
 Pedro Santos a21702907
 
-##### Link do repositório GitHub :
+##### Link do repositório GitHub : https://github.com/aurceramartins/Project2LP
 
 ### Relatório:
 O Alejandro fez a classe `Program`, `GameLoop`, diagrama UML<p>
