@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Apple enumeration member" Url="html/58d18894-7d4d-e13e-2ed4-652e8a147f14.htm" />
+  <HelpKINode Title="Chainsaw enumeration member" Url="html/efcf3ceb-50b5-195b-ce65-4975c18b2637.htm" />
+  <HelpKINode Title="CursedDagger enumeration member" Url="html/efcf3ceb-50b5-195b-ce65-4975c18b2637.htm" />
+  <HelpKINode Title="Eggs enumeration member" Url="html/58d18894-7d4d-e13e-2ed4-652e8a147f14.htm" />
+  <HelpKINode Title="Fish enumeration member" Url="html/58d18894-7d4d-e13e-2ed4-652e8a147f14.htm" />
+  <HelpKINode Title="FoodType enumeration" Url="html/58d18894-7d4d-e13e-2ed4-652e8a147f14.htm" />
+  <HelpKINode Title="HeavyMace enumeration member" Url="html/efcf3ceb-50b5-195b-ce65-4975c18b2637.htm" />
+  <HelpKINode Title="IDrawable interface" Url="html/48b15147-f6bd-55cb-355b-c1a41a572f78.htm" />
+  <HelpKINode Title="IItems interface">
+    <HelpKINode Title="IItems Interface" Url="html/705abc83-838c-8637-c97d-34e82971ae3b.htm" />
+    <HelpKINode Title="methods" Url="html/acc2cfd7-d309-73e4-763d-f3d0921fe350.htm" />
+    <HelpKINode Title="properties" Url="html/f83a89ba-7d0e-9d1f-dc29-bfc7283e0552.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IItems.RandPos method" Url="html/7ee5a4b4-81c9-c34e-8b64-b1c5508da175.htm" />
+  <HelpKINode Title="IItems.Weight property" Url="html/676de66b-32eb-2252-78ad-206f0508c918.htm" />
+  <HelpKINode Title="Meat enumeration member" Url="html/58d18894-7d4d-e13e-2ed4-652e8a147f14.htm" />
+  <HelpKINode Title="PowerAxe enumeration member" Url="html/efcf3ceb-50b5-195b-ce65-4975c18b2637.htm" />
+  <HelpKINode Title="Projecto2LP namespace" Url="html/fb886ef5-6daf-60c2-b936-d2e9fc01cf50.htm" />
+  <HelpKINode Title="Projecto2LP.FoodType enumeration" Url="html/58d18894-7d4d-e13e-2ed4-652e8a147f14.htm" />
+  <HelpKINode Title="Projecto2LP.IDrawable interface" Url="html/48b15147-f6bd-55cb-355b-c1a41a572f78.htm" />
+  <HelpKINode Title="Projecto2LP.IItems interface" Url="html/705abc83-838c-8637-c97d-34e82971ae3b.htm" />
+  <HelpKINode Title="Projecto2LP.WeaponType enumeration" Url="html/efcf3ceb-50b5-195b-ce65-4975c18b2637.htm" />
+  <HelpKINode Title="RandPos method" Url="html/7ee5a4b4-81c9-c34e-8b64-b1c5508da175.htm" />
+  <HelpKINode Title="RustySword enumeration member" Url="html/efcf3ceb-50b5-195b-ce65-4975c18b2637.htm" />
+  <HelpKINode Title="ShinyDagger enumeration member" Url="html/efcf3ceb-50b5-195b-ce65-4975c18b2637.htm" />
+  <HelpKINode Title="ShinySword enumeration member" Url="html/efcf3ceb-50b5-195b-ce65-4975c18b2637.htm" />
+  <HelpKINode Title="Water enumeration member" Url="html/58d18894-7d4d-e13e-2ed4-652e8a147f14.htm" />
+  <HelpKINode Title="WeaponType enumeration" Url="html/efcf3ceb-50b5-195b-ce65-4975c18b2637.htm" />
+  <HelpKINode Title="Weight property" Url="html/676de66b-32eb-2252-78ad-206f0508c918.htm" />
+</HelpKI>
